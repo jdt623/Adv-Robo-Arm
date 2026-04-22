@@ -1,0 +1,108 @@
+# =============================================================
+# Python
+# =============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# =============================================================
+# ROS 2 / colcon
+# =============================================================
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+*.bag
+*.mcap
+
+# =============================================================
+# IDE / editor
+# =============================================================
+.vscode/
+!.vscode/settings.json.example
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# =============================================================
+# OS junk
+# =============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================
+# CAD (keep source files, ignore exports/backups)
+# =============================================================
+# Fusion 360 / SolidWorks / Inventor backups
+*.bak
+*.f3z
+*~*.step
+*~*.stl
+
+# Slicer output
+*.gcode
+
+# =============================================================
+# Secrets / local config
+# =============================================================
+.env
+.env.local
+config/secrets.yaml
+*.key
+*.pem
+
+# =============================================================
+# Logs / data captures
+# =============================================================
+logs/
+*.log
+data/
+!data/.gitkeep
+
+# =============================================================
+# Misc
+# =============================================================
+*.tmp
+*.temp
+.cache/

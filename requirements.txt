@@ -1,0 +1,25 @@
+# Runtime dependencies for Phase 1 (pre-ROS 2) Python drivers.
+# Add libraries here as each driver is brought online.
+# Pin versions once a driver is validated.
+
+# Core
+numpy>=1.26
+pyyaml>=6.0
+
+# GPIO / I2C / SPI on Raspberry Pi 5
+# (gpiozero uses lgpio backend on Pi 5 — rpi-lgpio is the Pi 5 compatible shim)
+gpiozero>=2.0
+lgpio>=0.2.2.0
+
+# I2C sensors (accelerometer, many range finders) — uncomment when added
+# smbus2>=0.4.3
+# adafruit-circuitpython-lis3dh    # example accelerometer
+
+# Vision — uncomment when camera driver is added
+# picamera2>=0.3.18
+# opencv-python>=4.9
+
+# Development / testing
+pytest>=8.0
+pytest-cov>=4.1
+ruff>=0.3          # linter + formatter

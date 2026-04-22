@@ -1,0 +1,29 @@
+# Robot arm configuration.
+#
+# Checked into git. Put secrets in config/secrets.yaml (gitignored).
+
+accelerometer:
+  i2c_bus: 1
+  address: 0x18
+  offsets: [0.0, 0.0, 0.0]
+
+rangefinder:
+  i2c_bus: 1
+  address: 0x29
+
+pressure:
+  i2c_bus: 1
+  address: 0x77
+
+vision:
+  resolution: [640, 480]
+  fps: 30
+
+stepper_joints:
+  # Fill in once each joint is wired. One entry per motor.
+  # - name: base
+  #   step_pin: 20
+  #   dir_pin: 21
+  #   enable_pin: null
+  #   steps_per_rev: 200
+  #   microsteps: 16
