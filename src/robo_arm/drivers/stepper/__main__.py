@@ -3,6 +3,7 @@
 Drives the motor back and forth by 1 revolution.
 Edit the pin numbers below to match your wiring.
 """
+
 from __future__ import annotations
 
 import time

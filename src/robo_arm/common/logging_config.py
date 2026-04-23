@@ -1,4 +1,5 @@
 """Logging setup used by all driver `__main__` test harnesses."""
+
 from __future__ import annotations
 
 import logging

@@ -10,6 +10,7 @@ Design rules:
 - No driver imports anything ROS 2 related. Phase 2 nodes will *wrap* drivers;
   drivers stay framework-free.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod

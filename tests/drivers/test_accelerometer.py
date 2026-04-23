@@ -4,6 +4,7 @@ These run WITHOUT hardware because the driver's ``_read_raw`` is a stub until
 you wire up a real chip. Tests that need hardware should be marked
 ``@pytest.mark.hardware`` and will be skipped in CI.
 """
+
 from __future__ import annotations
 
 import pytest

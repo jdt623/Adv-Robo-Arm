@@ -7,6 +7,7 @@ Intentionally split into two layers:
 This separation means the ROS 2 node (Phase 2) and arm controller (Phase 4)
 never need to know which accelerometer chip is installed.
 """
+
 from __future__ import annotations
 
 import logging
