@@ -1,4 +1,5 @@
 """Console test harness: python -m robo_arm.drivers.rangefinder"""
+
 from __future__ import annotations
 
 import time

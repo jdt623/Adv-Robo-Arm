@@ -8,6 +8,7 @@ Keeping it here (instead of outside the repo) is what makes the whole arm
 modular: the controller and the Phase 2 ROS 2 node will both import
 ``StepperDriver`` from this one place.
 """
+
 from __future__ import annotations
 
 import logging

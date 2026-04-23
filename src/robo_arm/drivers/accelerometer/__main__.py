@@ -4,6 +4,7 @@ Run with:  python -m robo_arm.drivers.accelerometer
 
 Prints readings at ~10 Hz until you Ctrl+C.
 """
+
 from __future__ import annotations
 
 import time

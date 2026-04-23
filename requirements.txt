@@ -11,13 +11,12 @@ pyyaml>=6.0
 gpiozero>=2.0
 lgpio>=0.2.2.0
 
-# I2C sensors (accelerometer, many range finders) — uncomment when added
-# smbus2>=0.4.3
-# adafruit-circuitpython-lis3dh    # example accelerometer
+# I2C accelerometer (ADXL345)
+adafruit-blinka>=8.45
+adafruit-circuitpython-adxl34x>=1.12
 
-# Vision — uncomment when camera driver is added
-# picamera2>=0.3.18
-# opencv-python>=4.9
+# opencv-python>=4.9       
+# NOTE: on the Pi, install via `sudo apt install python3-opencv` instead
 
 # Development / testing
 pytest>=8.0

@@ -6,6 +6,7 @@ VL53L1X, etc.).
 
 Run the test harness with:  python -m robo_arm.drivers.rangefinder
 """
+
 from __future__ import annotations
 
 import logging
